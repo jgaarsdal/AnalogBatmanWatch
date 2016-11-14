@@ -1,0 +1,73 @@
+{
+    "author": "JGaarsdal",
+    "dependencies": {},
+    "keywords": [],
+    "name": "analogbatman",
+    "pebble": {
+        "displayName": "AnalogBatman",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/batman-insignia-old.png",
+                    "name": "IMAGE_BATMAN_OLD",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/batman-insignia-black.png",
+                    "name": "IMAGE_BATMAN_BLACK",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/batman-insignia-white.png",
+                    "name": "IMAGE_BATMAN_WHITE",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/batmfo__.ttf",
+                    "name": "FONT_BATMAN_WHITE_16",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/batmfa__.ttf",
+                    "name": "FONT_BATMAN_BLACK_16",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "5b929906-9fcf-418a-8ea3-f416bea14141",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
